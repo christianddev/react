@@ -4,8 +4,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const FirtsApp = ({saludo, subtititle}) => {
- 
-    
     return (
         <>
             <h1>{saludo}</h1>
@@ -13,7 +11,6 @@ const FirtsApp = ({saludo, subtititle}) => {
             <p>{subtititle}</p>
         </>
     );
-
 }
 
 FirtsApp.propTypes = {
@@ -21,7 +18,7 @@ FirtsApp.propTypes = {
 }
 
 FirtsApp.defaultProps = {
-    subtititle: 'subtititle - valor por defecto'
+    subtititle: 'subtitle - valor por defecto'
 }
 
 export default FirtsApp

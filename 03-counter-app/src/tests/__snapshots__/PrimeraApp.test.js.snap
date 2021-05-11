@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimeraApp.test.js should show <FirtsApp/> 1`] = `
+<Fragment>
+  <h1>
+    Hola desde index
+  </h1>
+  <p>
+    subtitle - valor por defecto
+  </p>
+</Fragment>
+`;

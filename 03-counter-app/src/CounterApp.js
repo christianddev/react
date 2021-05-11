@@ -1,18 +1,15 @@
-import React,  {useState} from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 
-const CounterApp = ({value = 0}) => {
-    
-    const [counter, setCounter] = useState(0); // []
-
+const CounterApp = ({value = 10}) => {
+    const [counter, setCounter] = useState(value); // []
     // handledAdd
     const handleAdd = () => {
         // setCounter(counter + 1)
-        setCounter( (value) =>  value +1 )
+        setCounter( (value) => value +1 )
     };
-    const handleRemove = () =>   setCounter( (value) =>  value - 1 );
-    
-    const handleReset = () => setCounter( (currentValue) =>  currentValue = value );
+    const handleRemove = () => setCounter( (value) => value - 1 );    
+    const handleReset = () => setCounter( (currentValue) => currentValue = value );
 
     return (
         <>

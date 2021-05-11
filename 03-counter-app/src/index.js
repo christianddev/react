@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-// import FirtsApp from './PrimeraApp';
+import FirtsApp from './PrimeraApp';
 import './index.css';
 import CounterApp from './CounterApp';
 
